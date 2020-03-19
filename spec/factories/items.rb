@@ -1,10 +1,10 @@
 FactoryBot.define do
   factory :item do
-    name { "MyString" }
-    description { "MyString" }
-    unit_price { "MyString" }
-    merchant_id { "MyString" }
-    created_at { "MyString" }
-    updated_at { "MyString" }
+    name { "Banana Stand" }
+    description { "There's always money in the banana stand." }
+    unit_price { "1.50" }
+    merchant_id { "#{Merchant.first.id}" }
+    created_at { "whenever" }
+    updated_at { "whenever" }
   end
 end
